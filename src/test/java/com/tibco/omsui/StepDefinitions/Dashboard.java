@@ -1,7 +1,6 @@
 package com.tibco.omsui.StepDefinitions;
 
 import com.tibco.omsui.DataBase.DataBaseMethods;
-import com.tibco.omsui.Model.SubmitOrderRequest;
 import com.tibco.omsui.config.ProjectPropertiesLoader;
 import com.tibco.omsui.constant.ProjectConstant;
 import com.tibco.omsui.pages.DashboardPage;
@@ -13,7 +12,6 @@ import com.tibco.omsui.Action.*;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.Assert;
 
@@ -21,8 +19,6 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Properties;
-
-import static com.tibco.omsui.StepDefinitions.Login.driver;
 
 public class Dashboard {
     String excelFilePath = "src/test/resources/";
@@ -52,7 +48,7 @@ public class Dashboard {
 
     @Then("the order is shown in dashboard order details")
     public void theOrderIsShownInDashboardOrderDetails() {
-        dashboardPage= new DashboardPage(driver);
+        dashboardPage= new DashboardPage(Login.driver);
         boolean flag = dashboardPage.findOrderIdInOrderDetailsTable(orderId);
         if (flag)
             Assert.assertTrue(true);
@@ -62,7 +58,7 @@ public class Dashboard {
 
     @Then("user verifies the links are provided to all OrderId's")
     public void userVerifiesTheLinksAreProvidedToAllOrderIdS() {
-        dashboardPage= new DashboardPage(driver);
+        dashboardPage= new DashboardPage(Login.driver);
         dashboardPage.checkTheHyperLinkForOrderId();
     }
 
@@ -76,7 +72,7 @@ public class Dashboard {
         String dbUrl = property.getProperty("archivalDsUrl");
         String dbUsername = property.getProperty("archivalDsUsername");
         String dbPassword = property.getProperty("archivalDsPassword");
-        dashboardPage= new DashboardPage(driver);
+        dashboardPage= new DashboardPage(Login.driver);
 
         DataBaseMethods dbMethods = new DataBaseMethods();
 
@@ -97,7 +93,7 @@ public class Dashboard {
     public void verifyTheOptionsPresentOnDashboardPageFromForRowNumber(String fileName, int rowNum) throws IOException, InvalidFormatException {
         ExcelUtility excelUtility = new ExcelUtility(ProjectConstant.TESTDATA_FILE);
         List<String> rowData = excelUtility.getRowData("Dashboard",1);
-        dashboardPage= new DashboardPage(driver);
+        dashboardPage= new DashboardPage(Login.driver);
         dashboardPage.verifyDashboardOptionsValues(rowData);
     }
 }

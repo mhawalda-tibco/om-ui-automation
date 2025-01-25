@@ -5,40 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="924fc07c-0792-410f-9b8b-016ce9337554" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/Authorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/SubmitOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/DataBase/DataBaseMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/CreateTokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/CreateTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/SubmitOrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Udf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Requests/SimpleSubmitOrder.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/config/ProjectPropertiesLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/constant/ProjectConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/RequestSpecUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DashboardOrderDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mhawalda-tibco"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mhawalda-tibco/om-ui-automation.git",
+    "accountId": "8df1ecb7-90d2-4e5d-8a2d-644716bf992f"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.10.2/testng-7.10.2.jar!/org/testng/annotations/Test.class" root0="SKIP_INSPECTION" />
   </component>
@@ -92,7 +78,7 @@
     "TestNG.SeleniumTestSetup.launchFirefoxBrowser.executor": "Run",
     "TestNG.TestSetup.launchBrowser.executor": "Debug",
     "TestNG.TestSetup.login.executor": "Debug",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "UIAutomation-610",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/MudassarDastagir.Haw/Automation-FOS-510HF9/FrameworkFiles",
     "node.js.detected.package.eslint": "true",
@@ -113,9 +99,13 @@
       <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\test\resources" />
       <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\target\jsonReports" />
       <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\main\resources" />
       <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\test\java\com\tibco\features" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tibco.omsUI.Pojo" />
@@ -212,12 +202,12 @@
       <module name="UIAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tibco.omsui.runner.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tibco.omsui.runner" />
-      <option name="MAIN_CLASS_NAME" value="com.tibco.omsui.runner.TestRunner" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -267,7 +257,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Hooks.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Hooks.java</url>
           <line>18</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -287,12 +277,12 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
           <line>49</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
           <line>38</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -307,7 +297,7 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
           <line>73</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
@@ -317,7 +307,7 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
           <line>71</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
