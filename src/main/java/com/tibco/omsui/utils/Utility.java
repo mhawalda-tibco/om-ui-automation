@@ -30,7 +30,7 @@ public class Utility {
     public WebDriver launchBrowser(String browserType, String url) {
         if (browserType.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-            //options.addArguments("--headless");
+            options.addArguments("--headless");
             driver = new ChromeDriver(options);
         } else if (browserType.equalsIgnoreCase("firefox")) {
             FirefoxOptions options = new FirefoxOptions();

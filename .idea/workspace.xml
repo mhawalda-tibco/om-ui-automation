@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="924fc07c-0792-410f-9b8b-016ce9337554" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DashboardOrderDetails.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tibco/omsui/StepDefinitions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,9 @@
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.10.2/testng-7.10.2.jar!/org/testng/annotations/Test.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4

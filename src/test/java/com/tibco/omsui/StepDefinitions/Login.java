@@ -118,4 +118,9 @@ public class Login {
     public void usernameTenantIdAndLogoutButtonIsDisplayed() {
         loginPage.validateDetailsOnProfileIcon(tenantId,userName);
     }
+
+    @And("click on login button to check the error")
+    public void clickOnLoginButtonToCheckTheError() {
+        loginPage.clickLoginButton();
+    }
 }
