@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="924fc07c-0792-410f-9b8b-016ce9337554" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/SubmitOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/DataBase/DataBaseMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/CreateTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/CreateTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/SubmitOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Model/Udf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/Requests/SimpleSubmitOrder.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/config/ProjectPropertiesLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/constant/ProjectConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/ExcelUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/RequestSpecUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tibco/omsui/utils/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/login.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.10.2/testng-7.10.2.jar!/org/testng/annotations/Test.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ona1pZbXc4rgXVCBQyqtZtMBkl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Cucumber Java.Scenario: Login to the UI and verify landing page.executor": "Run",
+    "Cucumber Java.Scenario: Login to the UI with Invalid tenant and verify error message.executor": "Run",
+    "Cucumber Java.Scenario: Login to the UI with Invalid username and verify error message.executor": "Run",
+    "Cucumber Java.Scenario: Submit the order and verify the order on UI.executor": "Debug",
+    "Cucumber Java.Scenario: Verify if the links are provided to all OrderId's.executor": "Run",
+    "Cucumber Java.Scenario: Verify login icon on homepage.executor": "Run",
+    "Cucumber Java.Scenario: Verify the options on DashBoard.executor": "Run",
+    "Cucumber Java.Scenario: Verify the total number of order count matches with database.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "Maven.UIAutomation [clean].executor": "Run",
+    "Maven.UIAutomation [install].executor": "Run",
+    "Maven.UIAutomation [test,verify].executor": "Run",
+    "Maven.UIAutomation [test].executor": "Run",
+    "Maven.UIAutomation [validate].executor": "Run",
+    "Maven.UIAutomation [verify].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SeleniumTest.executor": "Run",
+    "TestNG.SeleniumTestSetup.executor": "Run",
+    "TestNG.SeleniumTestSetup.launchFirefoxBrowser.executor": "Run",
+    "TestNG.TestSetup.launchBrowser.executor": "Debug",
+    "TestNG.TestSetup.login.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MudassarDastagir.Haw/Automation-FOS-510HF9/FrameworkFiles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\main\resources\features" />
+      <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\target\jsonReports" />
+      <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\main\resources" />
+      <recent name="C:\Users\MudassarDastagir.Haw\UIAutomation\src\test\java\com\tibco\features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tibco.omsUI.Pojo" />
+      <recent name="com.tibco.omsUI.Action" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="C:\Users\MudassarDastagir.Haw\UIAutomation\src\main\java\com\tibco\omsUI\Requests\SimpleSubmitOrder.json" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Scenario: Login to the UI and verify landing page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/login.feature" />
+      <option name="GLUE" value="com.tibco.omsui.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="UIAutomation" />
+      <option name="NAME_FILTER" value="^Login to the UI and verify landing page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login to the UI and verify landing page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login to the UI and verify landing page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify if the links are provided to all OrderId's" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" />
+      <option name="GLUE" value="com.tibco.omsui.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="UIAutomation" />
+      <option name="NAME_FILTER" value="^Verify if the links are provided to all OrderId\'s$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify if the links are provided to all OrderId\'s$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify if the links are provided to all OrderId's" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the options on DashBoard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" />
+      <option name="GLUE" value="com.tibco.omsui.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="UIAutomation" />
+      <option name="NAME_FILTER" value="^Verify the options on DashBoard$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the options on DashBoard$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the options on DashBoard" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the total number of order count matches with database" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/DashboardOrderDetails.feature" />
+      <option name="GLUE" value="com.tibco.omsui.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="UIAutomation" />
+      <option name="NAME_FILTER" value="^Verify the total number of order count matches with database$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the total number of order count matches with database$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the total number of order count matches with database" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UIAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tibco.omsui.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tibco.omsui.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.tibco.omsui.runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify if the links are provided to all OrderId's" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the total number of order count matches with database" />
+        <item itemvalue="Cucumber Java.Scenario: Login to the UI and verify landing page" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the options on DashBoard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="924fc07c-0792-410f-9b8b-016ce9337554" name="Changes" comment="" />
+      <created>1731507583665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731507583665</updated>
+      <workItem from="1731507584591" duration="14724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/Authorization.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/Authorization.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/Authorization.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Hooks.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/LoginPage.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/LoginPage.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/DashboardPage.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/Action/SubmitOrder.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/pages/DashboardPage.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/DataBase/DataBaseMethods.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tibco/omsui/StepDefinitions/Dashboard.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

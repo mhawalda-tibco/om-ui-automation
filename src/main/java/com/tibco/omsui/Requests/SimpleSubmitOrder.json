@@ -1,0 +1,65 @@
+{
+  "externalBusinessTransactionId": "123456",
+  "orderRequest": {
+    "header": {
+      "deliveryAddress": {
+        "country": "1",
+        "line1": "34",
+        "line2": "eff",
+        "line3": "wefwe",
+        "locality": "effe",
+        "postCode": "34",
+        "region": "gh",
+        "supplementaryLocation": "fewf"
+      },
+      "description": "desc",
+      "orderPriority": 4,
+      "customerID": "pooja",
+      "udf": [
+        {
+          "name": "country",
+          "value": "India"
+        }
+      ],
+      "requiredByDate": "2023-05-25T13:40:00+05:30"
+    },
+    "line": [
+      {
+        "action": "PROVIDE",
+        "deliveryAddress": {
+          "country": "1",
+          "line1": "34",
+          "line2": "eff",
+          "line3": "wefwfwefe",
+          "locality": "ewfewef",
+          "postCode": "34",
+          "region": "ghwcdfefdew",
+          "supplementaryLocation": "fewfmntppplpl"
+        },
+        "invoiceAddress": {
+          "country": "IN",
+          "line1": "1",
+          "line2": "2",
+          "line3": "3",
+          "locality": "PUNE",
+          "postCode": "411",
+          "region": "MH",
+          "supplementaryLocation": "Malegaon"
+        },
+        "lineNumber": "1",
+        "productID": "PO_TV",
+        "productVersion": "1",
+        "quantity": 1,
+        "subscriberID": "mona",
+        "udf": [
+          {
+            "name": "daughter",
+            "value": "prisha"
+          }
+        ],
+        "uom": "uom"
+      }
+    ],
+    "orderRef": "{#TestCase#ORDERREF}"
+  }
+}
